@@ -8,4 +8,7 @@ public class Person {
         this.pesel = pesel;
         this.salary = salary;
     }
+    void method(String pesel, BigDecimal salary){
+        System.out.printf("twój Pesel to: %s a twoje wynagrodzenie to %s", pesel, salary);
+    }
 }
