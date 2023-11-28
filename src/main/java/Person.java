@@ -6,7 +6,7 @@ public class Person {
     private final String surname;
     private final Long Age;
     private final String pesel;
-    private final BigDecimal salary;
+    private final BigDecimal sa
 
     public Person(String name, String surname, Long age, String pesel, BigDecimal salary) {
         this.name = name;
