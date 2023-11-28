@@ -8,6 +8,7 @@ public class Person {
     private final String pesel;
     private final BigDecimal salary;
 
+
     public Person(String name, String surname, Long age, String pesel, BigDecimal salary) {
         this.name = name;
         this.surname = surname;
@@ -18,6 +19,7 @@ public class Person {
 
     void method(String pesel, BigDecimal salary) {
         System.out.printf("twój Pesel to: %s a twoje wynagrodzenie to %s", pesel, salary);
+
     }
 
     public BigDecimal getSalary() {
